@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Odoo Academy",
+    'name': 'Odoo Academy',
 
-    'summary': "Academy app to manage training"
+    'summary': """Academy app to manage training"""
 
     'description': """
         Academy Module to manage training
@@ -11,8 +11,8 @@
         -Attendes
     """,
 
-    'author': "SL",
-    'website': "http://www.odoo.com",
+    'author': 'SL',
+    'website': 'http://www.odoo.com',
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
