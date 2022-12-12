@@ -25,6 +25,8 @@ class Course (models.Model):
     
     total_price = fields.Float(string='Total Price',default=0.00)
     
+    session_ids = fields.One2many(comodel_name = 'academy.session', inverse_name='course_id', string='Sessions')
+    
     @api.onchange('best_price', 'additional_fee')
     def _onchange_total_price(self):
         
